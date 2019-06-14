@@ -8,7 +8,6 @@ class P763 {
         System.out.println(m.partitionLabels("aaaaaab"));
     }
 
-    //
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         //one rectangle is on left of other
         if (rec2[2] <= rec1[0] || rec1[2] <= rec2[0]) {
