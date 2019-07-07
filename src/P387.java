@@ -20,7 +20,7 @@ public class P387 {
     }
 
     @Test
-    public void firstUniqChar() {
+    public void firstUniqCharTest() {
         assertEquals(0, new P387().firstUniqChar("leetcode"));
         assertEquals(-1, new P387().firstUniqChar(""));
         assertEquals(8, new P387().firstUniqChar("abcdabcde"));
