@@ -7,7 +7,6 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 /*
-4. https://www.geeksforgeeks.org/trapping-rain-water/  - 2 times
 5. Given array of students and their marks in different subjects. Find maximum average of the student.{“James”, “70”}, {“Fernando”, “90”}, {“Nick”, “60”}, {“James”, “10”} Ans should be name = Fernando, max avg =90
 6. Write a function to check if the input number is a power of 10
 8. Given an array of integers and a sum, output the number of pairs whose addition is equal to the given sum - 2 times
