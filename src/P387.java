@@ -1,7 +1,3 @@
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
-
 public class P387 {
     public int firstUniqChar(String s) {
         int[] count = new int[26];
@@ -17,12 +13,5 @@ public class P387 {
             }
         }
         return ans == s.length() ? -1 : ans;
-    }
-
-    @Test
-    public void firstUniqCharTest() {
-        assertEquals(0, new P387().firstUniqChar("leetcode"));
-        assertEquals(-1, new P387().firstUniqChar(""));
-        assertEquals(8, new P387().firstUniqChar("abcdabcde"));
     }
 }
